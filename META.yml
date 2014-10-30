@@ -1,0 +1,24 @@
+---
+abstract: 'Make Moo-based object constructors class-only methods'
+author:
+  - 'Jim Bacon <jim@nortx.com>'
+build_requires:
+  Test::Exception: '0'
+  Test::More: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '6.59'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.141520'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: MooX-ClassOnlyConstructor
+no_index:
+  directory:
+    - t
+    - inc
+    - xt
+requires:
+  Moo: '0'
+version: v0.1_1
